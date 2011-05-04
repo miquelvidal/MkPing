@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42BD69EB1372051D00C7E11B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BD69EA1372051D00C7E11B /* UIKit.framework */; };
+		42BD69ED1372051D00C7E11B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BD69EC1372051D00C7E11B /* Foundation.framework */; };
+		42BD69EF1372051D00C7E11B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BD69EE1372051D00C7E11B /* CoreGraphics.framework */; };
+		42BD69F51372051D00C7E11B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42BD69F31372051D00C7E11B /* InfoPlist.strings */; };
+		42BD69F81372051D00C7E11B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD69F71372051D00C7E11B /* main.m */; };
+		42BD69FB1372051D00C7E11B /* MkPingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD69FA1372051D00C7E11B /* MkPingAppDelegate.m */; };
+		42BD69FE1372051D00C7E11B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42BD69FC1372051D00C7E11B /* MainWindow.xib */; };
+		42BD6A011372051D00C7E11B /* MkPingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD6A001372051D00C7E11B /* MkPingViewController.m */; };
+		42BD6A041372051D00C7E11B /* MkPingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42BD6A021372051D00C7E11B /* MkPingViewController.xib */; };
+		42BD6A0B1372051D00C7E11B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BD69EA1372051D00C7E11B /* UIKit.framework */; };
+		42BD6A0C1372051D00C7E11B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BD69EC1372051D00C7E11B /* Foundation.framework */; };
+		42BD6A0D1372051D00C7E11B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BD69EE1372051D00C7E11B /* CoreGraphics.framework */; };
+		42BD6A151372051D00C7E11B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42BD6A131372051D00C7E11B /* InfoPlist.strings */; };
+		42BD6A181372051D00C7E11B /* MkPingTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 42BD6A171372051D00C7E11B /* MkPingTests.h */; };
+		42BD6A1A1372051D00C7E11B /* MkPingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD6A191372051D00C7E11B /* MkPingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42BD6A0E1372051D00C7E11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BD69DD1372051D00C7E11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BD69E51372051D00C7E11B;
+			remoteInfo = MkPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42BD69E61372051D00C7E11B /* MkPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MkPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BD69EA1372051D00C7E11B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42BD69EC1372051D00C7E11B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42BD69EE1372051D00C7E11B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42BD69F21372051D00C7E11B /* MkPing-Info.plist */ = {isa = PBXFileReference; path = "MkPing-Info.plist"; sourceTree = "<group>"; };
+		42BD69F41372051D00C7E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42BD69F61372051D00C7E11B /* MkPing-Prefix.pch */ = {isa = PBXFileReference; path = "MkPing-Prefix.pch"; sourceTree = "<group>"; };
+		42BD69F71372051D00C7E11B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42BD69F91372051D00C7E11B /* MkPingAppDelegate.h */ = {isa = PBXFileReference; path = MkPingAppDelegate.h; sourceTree = "<group>"; };
+		42BD69FA1372051D00C7E11B /* MkPingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MkPingAppDelegate.m; sourceTree = "<group>"; };
+		42BD69FD1372051D00C7E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		42BD69FF1372051D00C7E11B /* MkPingViewController.h */ = {isa = PBXFileReference; path = MkPingViewController.h; sourceTree = "<group>"; };
+		42BD6A001372051D00C7E11B /* MkPingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MkPingViewController.m; sourceTree = "<group>"; };
+		42BD6A031372051D00C7E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MkPingViewController.xib; sourceTree = "<group>"; };
+		42BD6A0A1372051D00C7E11B /* MkPingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MkPingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BD6A121372051D00C7E11B /* MkPingTests-Info.plist */ = {isa = PBXFileReference; path = "MkPingTests-Info.plist"; sourceTree = "<group>"; };
+		42BD6A141372051D00C7E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42BD6A161372051D00C7E11B /* MkPingTests-Prefix.pch */ = {isa = PBXFileReference; path = "MkPingTests-Prefix.pch"; sourceTree = "<group>"; };
+		42BD6A171372051D00C7E11B /* MkPingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MkPingTests.h; sourceTree = "<group>"; };
+		42BD6A191372051D00C7E11B /* MkPingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MkPingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42BD69E31372051D00C7E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BD69EB1372051D00C7E11B /* UIKit.framework in Frameworks */,
+				42BD69ED1372051D00C7E11B /* Foundation.framework in Frameworks */,
+				42BD69EF1372051D00C7E11B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BD6A061372051D00C7E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BD6A0B1372051D00C7E11B /* UIKit.framework in Frameworks */,
+				42BD6A0C1372051D00C7E11B /* Foundation.framework in Frameworks */,
+				42BD6A0D1372051D00C7E11B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42BD69DB1372051D00C7E11B = {
+			isa = PBXGroup;
+			children = (
+				42BD69F01372051D00C7E11B /* MkPing */,
+				42BD6A101372051D00C7E11B /* MkPingTests */,
+				42BD69E91372051D00C7E11B /* Frameworks */,
+				42BD69E71372051D00C7E11B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42BD69E71372051D00C7E11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42BD69E61372051D00C7E11B /* MkPing.app */,
+				42BD6A0A1372051D00C7E11B /* MkPingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42BD69E91372051D00C7E11B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42BD69EA1372051D00C7E11B /* UIKit.framework */,
+				42BD69EC1372051D00C7E11B /* Foundation.framework */,
+				42BD69EE1372051D00C7E11B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42BD69F01372051D00C7E11B /* MkPing */ = {
+			isa = PBXGroup;
+			children = (
+				42BD69F91372051D00C7E11B /* MkPingAppDelegate.h */,
+				42BD69FA1372051D00C7E11B /* MkPingAppDelegate.m */,
+				42BD69FC1372051D00C7E11B /* MainWindow.xib */,
+				42BD69FF1372051D00C7E11B /* MkPingViewController.h */,
+				42BD6A001372051D00C7E11B /* MkPingViewController.m */,
+				42BD6A021372051D00C7E11B /* MkPingViewController.xib */,
+				42BD69F11372051D00C7E11B /* Supporting Files */,
+			);
+			path = MkPing;
+			sourceTree = "<group>";
+		};
+		42BD69F11372051D00C7E11B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42BD69F21372051D00C7E11B /* MkPing-Info.plist */,
+				42BD69F31372051D00C7E11B /* InfoPlist.strings */,
+				42BD69F61372051D00C7E11B /* MkPing-Prefix.pch */,
+				42BD69F71372051D00C7E11B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42BD6A101372051D00C7E11B /* MkPingTests */ = {
+			isa = PBXGroup;
+			children = (
+				42BD6A171372051D00C7E11B /* MkPingTests.h */,
+				42BD6A191372051D00C7E11B /* MkPingTests.m */,
+				42BD6A111372051D00C7E11B /* Supporting Files */,
+			);
+			path = MkPingTests;
+			sourceTree = "<group>";
+		};
+		42BD6A111372051D00C7E11B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42BD6A121372051D00C7E11B /* MkPingTests-Info.plist */,
+				42BD6A131372051D00C7E11B /* InfoPlist.strings */,
+				42BD6A161372051D00C7E11B /* MkPingTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42BD69E51372051D00C7E11B /* MkPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BD6A1D1372051D00C7E11B /* Build configuration list for PBXNativeTarget "MkPing" */;
+			buildPhases = (
+				42BD69E21372051D00C7E11B /* Sources */,
+				42BD69E31372051D00C7E11B /* Frameworks */,
+				42BD69E41372051D00C7E11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MkPing;
+			productName = MkPing;
+			productReference = 42BD69E61372051D00C7E11B /* MkPing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42BD6A091372051D00C7E11B /* MkPingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BD6A201372051D00C7E11B /* Build configuration list for PBXNativeTarget "MkPingTests" */;
+			buildPhases = (
+				42BD6A051372051D00C7E11B /* Sources */,
+				42BD6A061372051D00C7E11B /* Frameworks */,
+				42BD6A071372051D00C7E11B /* Resources */,
+				42BD6A081372051D00C7E11B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42BD6A0F1372051D00C7E11B /* PBXTargetDependency */,
+			);
+			name = MkPingTests;
+			productName = MkPingTests;
+			productReference = 42BD6A0A1372051D00C7E11B /* MkPingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42BD69DD1372051D00C7E11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = jj;
+			};
+			buildConfigurationList = 42BD69E01372051D00C7E11B /* Build configuration list for PBXProject "MkPing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42BD69DB1372051D00C7E11B;
+			productRefGroup = 42BD69E71372051D00C7E11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42BD69E51372051D00C7E11B /* MkPing */,
+				42BD6A091372051D00C7E11B /* MkPingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42BD69E41372051D00C7E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BD69F51372051D00C7E11B /* InfoPlist.strings in Resources */,
+				42BD69FE1372051D00C7E11B /* MainWindow.xib in Resources */,
+				42BD6A041372051D00C7E11B /* MkPingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BD6A071372051D00C7E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BD6A151372051D00C7E11B /* InfoPlist.strings in Resources */,
+				42BD6A181372051D00C7E11B /* MkPingTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42BD6A081372051D00C7E11B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42BD69E21372051D00C7E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BD69F81372051D00C7E11B /* main.m in Sources */,
+				42BD69FB1372051D00C7E11B /* MkPingAppDelegate.m in Sources */,
+				42BD6A011372051D00C7E11B /* MkPingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BD6A051372051D00C7E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BD6A1A1372051D00C7E11B /* MkPingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42BD6A0F1372051D00C7E11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BD69E51372051D00C7E11B /* MkPing */;
+			targetProxy = 42BD6A0E1372051D00C7E11B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42BD69F31372051D00C7E11B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BD69F41372051D00C7E11B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42BD69FC1372051D00C7E11B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BD69FD1372051D00C7E11B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		42BD6A021372051D00C7E11B /* MkPingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BD6A031372051D00C7E11B /* en */,
+			);
+			name = MkPingViewController.xib;
+			sourceTree = "<group>";
+		};
+		42BD6A131372051D00C7E11B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BD6A141372051D00C7E11B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42BD6A1B1372051D00C7E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42BD6A1C1372051D00C7E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		42BD6A1E1372051D00C7E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MkPing/MkPing-Prefix.pch";
+				INFOPLIST_FILE = "MkPing/MkPing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42BD6A1F1372051D00C7E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MkPing/MkPing-Prefix.pch";
+				INFOPLIST_FILE = "MkPing/MkPing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		42BD6A211372051D00C7E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MkPing.app/MkPing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MkPingTests/MkPingTests-Prefix.pch";
+				INFOPLIST_FILE = "MkPingTests/MkPingTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		42BD6A221372051D00C7E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MkPing.app/MkPing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MkPingTests/MkPingTests-Prefix.pch";
+				INFOPLIST_FILE = "MkPingTests/MkPingTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42BD69E01372051D00C7E11B /* Build configuration list for PBXProject "MkPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BD6A1B1372051D00C7E11B /* Debug */,
+				42BD6A1C1372051D00C7E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BD6A1D1372051D00C7E11B /* Build configuration list for PBXNativeTarget "MkPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BD6A1E1372051D00C7E11B /* Debug */,
+				42BD6A1F1372051D00C7E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42BD6A201372051D00C7E11B /* Build configuration list for PBXNativeTarget "MkPingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BD6A211372051D00C7E11B /* Debug */,
+				42BD6A221372051D00C7E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42BD69DD1372051D00C7E11B /* Project object */;
+}
