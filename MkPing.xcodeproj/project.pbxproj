@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		429120031376E20F00D4535B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429120021376E20F00D4535B /* CFNetwork.framework */; };
+		42B95E3B137B435F00C3BAE6 /* TryPing1_resize.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B95E3A137B435F00C3BAE6 /* TryPing1_resize.png */; };
+		42B95E3E137B43CB00C3BAE6 /* TryPing1_resize2retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B95E3D137B43CB00C3BAE6 /* TryPing1_resize2retina.png */; };
 		42BD69EB1372051D00C7E11B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BD69EA1372051D00C7E11B /* UIKit.framework */; };
 		42BD69ED1372051D00C7E11B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BD69EC1372051D00C7E11B /* Foundation.framework */; };
 		42BD69EF1372051D00C7E11B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BD69EE1372051D00C7E11B /* CoreGraphics.framework */; };
@@ -22,6 +25,13 @@
 		42BD6A151372051D00C7E11B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42BD6A131372051D00C7E11B /* InfoPlist.strings */; };
 		42BD6A181372051D00C7E11B /* MkPingTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 42BD6A171372051D00C7E11B /* MkPingTests.h */; };
 		42BD6A1A1372051D00C7E11B /* MkPingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD6A191372051D00C7E11B /* MkPingTests.m */; };
+		42BD6A2B1372057E00C7E11B /* MkPinger.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD6A241372057E00C7E11B /* MkPinger.m */; };
+		42BD6A2C1372057E00C7E11B /* MkPingerDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD6A261372057E00C7E11B /* MkPingerDispatcher.m */; };
+		42BD6A2D1372057E00C7E11B /* MkTextLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD6A291372057E00C7E11B /* MkTextLogger.m */; };
+		42BD6A3A13720ADA00C7E11B /* MkUITextViewLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD6A3913720ADA00C7E11B /* MkUITextViewLogger.m */; };
+		42E8621E137F070E00B593D6 /* TryPing1_WithoutGlass57.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E8621D137F070E00B593D6 /* TryPing1_WithoutGlass57.png */; };
+		42E86221137F071600B593D6 /* TryPing1_WithoutGlass114.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E86220137F071600B593D6 /* TryPing1_WithoutGlass114.png */; };
+		42ED1C0C138ED7CD00F3BA4D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 42ED1C0B138ED7CD00F3BA4D /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +45,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		429120021376E20F00D4535B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		42B95E3A137B435F00C3BAE6 /* TryPing1_resize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TryPing1_resize.png; sourceTree = "<group>"; };
+		42B95E3D137B43CB00C3BAE6 /* TryPing1_resize2retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TryPing1_resize2retina.png; sourceTree = "<group>"; };
 		42BD69E61372051D00C7E11B /* MkPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MkPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BD69EA1372051D00C7E11B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42BD69EC1372051D00C7E11B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42BD69EE1372051D00C7E11B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		42BD69F21372051D00C7E11B /* MkPing-Info.plist */ = {isa = PBXFileReference; path = "MkPing-Info.plist"; sourceTree = "<group>"; };
+		42BD69F21372051D00C7E11B /* MkPing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MkPing-Info.plist"; sourceTree = "<group>"; };
 		42BD69F41372051D00C7E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		42BD69F61372051D00C7E11B /* MkPing-Prefix.pch */ = {isa = PBXFileReference; path = "MkPing-Prefix.pch"; sourceTree = "<group>"; };
+		42BD69F61372051D00C7E11B /* MkPing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MkPing-Prefix.pch"; sourceTree = "<group>"; };
 		42BD69F71372051D00C7E11B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42BD69F91372051D00C7E11B /* MkPingAppDelegate.h */ = {isa = PBXFileReference; path = MkPingAppDelegate.h; sourceTree = "<group>"; };
+		42BD69F91372051D00C7E11B /* MkPingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MkPingAppDelegate.h; sourceTree = "<group>"; };
 		42BD69FA1372051D00C7E11B /* MkPingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MkPingAppDelegate.m; sourceTree = "<group>"; };
 		42BD69FD1372051D00C7E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		42BD69FF1372051D00C7E11B /* MkPingViewController.h */ = {isa = PBXFileReference; path = MkPingViewController.h; sourceTree = "<group>"; };
+		42BD69FF1372051D00C7E11B /* MkPingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MkPingViewController.h; sourceTree = "<group>"; };
 		42BD6A001372051D00C7E11B /* MkPingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MkPingViewController.m; sourceTree = "<group>"; };
 		42BD6A031372051D00C7E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MkPingViewController.xib; sourceTree = "<group>"; };
 		42BD6A0A1372051D00C7E11B /* MkPingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MkPingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42BD6A121372051D00C7E11B /* MkPingTests-Info.plist */ = {isa = PBXFileReference; path = "MkPingTests-Info.plist"; sourceTree = "<group>"; };
+		42BD6A121372051D00C7E11B /* MkPingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MkPingTests-Info.plist"; sourceTree = "<group>"; };
 		42BD6A141372051D00C7E11B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		42BD6A161372051D00C7E11B /* MkPingTests-Prefix.pch */ = {isa = PBXFileReference; path = "MkPingTests-Prefix.pch"; sourceTree = "<group>"; };
+		42BD6A161372051D00C7E11B /* MkPingTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MkPingTests-Prefix.pch"; sourceTree = "<group>"; };
 		42BD6A171372051D00C7E11B /* MkPingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MkPingTests.h; sourceTree = "<group>"; };
 		42BD6A191372051D00C7E11B /* MkPingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MkPingTests.m; sourceTree = "<group>"; };
+		42BD6A231372057E00C7E11B /* MkPinger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MkPinger.h; path = ../../20110421PingTry/MkPinger.h; sourceTree = "<group>"; };
+		42BD6A241372057E00C7E11B /* MkPinger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MkPinger.m; path = ../../20110421PingTry/MkPinger.m; sourceTree = "<group>"; };
+		42BD6A251372057E00C7E11B /* MkPingerDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MkPingerDispatcher.h; path = ../../20110421PingTry/MkPingerDispatcher.h; sourceTree = "<group>"; };
+		42BD6A261372057E00C7E11B /* MkPingerDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MkPingerDispatcher.m; path = ../../20110421PingTry/MkPingerDispatcher.m; sourceTree = "<group>"; };
+		42BD6A271372057E00C7E11B /* MkPingerDispatcherP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MkPingerDispatcherP.h; path = ../../20110421PingTry/MkPingerDispatcherP.h; sourceTree = "<group>"; };
+		42BD6A281372057E00C7E11B /* MkTextLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MkTextLogger.h; path = ../../20110421PingTry/MkTextLogger.h; sourceTree = "<group>"; };
+		42BD6A291372057E00C7E11B /* MkTextLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MkTextLogger.m; path = ../../20110421PingTry/MkTextLogger.m; sourceTree = "<group>"; };
+		42BD6A2A1372057E00C7E11B /* MkTextLoggerP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MkTextLoggerP.h; path = ../../20110421PingTry/MkTextLoggerP.h; sourceTree = "<group>"; };
+		42BD6A3813720ADA00C7E11B /* MkUITextViewLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MkUITextViewLogger.h; sourceTree = "<group>"; };
+		42BD6A3913720ADA00C7E11B /* MkUITextViewLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MkUITextViewLogger.m; sourceTree = "<group>"; };
+		42E8621D137F070E00B593D6 /* TryPing1_WithoutGlass57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TryPing1_WithoutGlass57.png; sourceTree = "<group>"; };
+		42E86220137F071600B593D6 /* TryPing1_WithoutGlass114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TryPing1_WithoutGlass114.png; sourceTree = "<group>"; };
+		42ED1C0B138ED7CD00F3BA4D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429120031376E20F00D4535B /* CFNetwork.framework in Frameworks */,
 				42BD69EB1372051D00C7E11B /* UIKit.framework in Frameworks */,
 				42BD69ED1372051D00C7E11B /* Foundation.framework in Frameworks */,
 				42BD69EF1372051D00C7E11B /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +111,11 @@
 		42BD69DB1372051D00C7E11B = {
 			isa = PBXGroup;
 			children = (
+				42ED1C0B138ED7CD00F3BA4D /* Default.png */,
+				42E86220137F071600B593D6 /* TryPing1_WithoutGlass114.png */,
+				42E8621D137F070E00B593D6 /* TryPing1_WithoutGlass57.png */,
+				42B95E3D137B43CB00C3BAE6 /* TryPing1_resize2retina.png */,
+				42B95E3A137B435F00C3BAE6 /* TryPing1_resize.png */,
 				42BD69F01372051D00C7E11B /* MkPing */,
 				42BD6A101372051D00C7E11B /* MkPingTests */,
 				42BD69E91372051D00C7E11B /* Frameworks */,
@@ -103,6 +135,7 @@
 		42BD69E91372051D00C7E11B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				429120021376E20F00D4535B /* CFNetwork.framework */,
 				42BD69EA1372051D00C7E11B /* UIKit.framework */,
 				42BD69EC1372051D00C7E11B /* Foundation.framework */,
 				42BD69EE1372051D00C7E11B /* CoreGraphics.framework */,
@@ -113,6 +146,9 @@
 		42BD69F01372051D00C7E11B /* MkPing */ = {
 			isa = PBXGroup;
 			children = (
+				42BD6A31137205D000C7E11B /* Loggers */,
+				42BD6A30137205B800C7E11B /* PingClasses */,
+				42BD6A2F137205A300C7E11B /* protocols */,
 				42BD69F91372051D00C7E11B /* MkPingAppDelegate.h */,
 				42BD69FA1372051D00C7E11B /* MkPingAppDelegate.m */,
 				42BD69FC1372051D00C7E11B /* MainWindow.xib */,
@@ -153,6 +189,37 @@
 				42BD6A161372051D00C7E11B /* MkPingTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42BD6A2F137205A300C7E11B /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				42BD6A271372057E00C7E11B /* MkPingerDispatcherP.h */,
+				42BD6A2A1372057E00C7E11B /* MkTextLoggerP.h */,
+			);
+			name = protocols;
+			sourceTree = "<group>";
+		};
+		42BD6A30137205B800C7E11B /* PingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				42BD6A231372057E00C7E11B /* MkPinger.h */,
+				42BD6A241372057E00C7E11B /* MkPinger.m */,
+				42BD6A251372057E00C7E11B /* MkPingerDispatcher.h */,
+				42BD6A261372057E00C7E11B /* MkPingerDispatcher.m */,
+			);
+			name = PingClasses;
+			sourceTree = "<group>";
+		};
+		42BD6A31137205D000C7E11B /* Loggers */ = {
+			isa = PBXGroup;
+			children = (
+				42BD6A281372057E00C7E11B /* MkTextLogger.h */,
+				42BD6A291372057E00C7E11B /* MkTextLogger.m */,
+				42BD6A3813720ADA00C7E11B /* MkUITextViewLogger.h */,
+				42BD6A3913720ADA00C7E11B /* MkUITextViewLogger.m */,
+			);
+			name = Loggers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +295,11 @@
 				42BD69F51372051D00C7E11B /* InfoPlist.strings in Resources */,
 				42BD69FE1372051D00C7E11B /* MainWindow.xib in Resources */,
 				42BD6A041372051D00C7E11B /* MkPingViewController.xib in Resources */,
+				42B95E3B137B435F00C3BAE6 /* TryPing1_resize.png in Resources */,
+				42B95E3E137B43CB00C3BAE6 /* TryPing1_resize2retina.png in Resources */,
+				42E8621E137F070E00B593D6 /* TryPing1_WithoutGlass57.png in Resources */,
+				42E86221137F071600B593D6 /* TryPing1_WithoutGlass114.png in Resources */,
+				42ED1C0C138ED7CD00F3BA4D /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +338,10 @@
 				42BD69F81372051D00C7E11B /* main.m in Sources */,
 				42BD69FB1372051D00C7E11B /* MkPingAppDelegate.m in Sources */,
 				42BD6A011372051D00C7E11B /* MkPingViewController.m in Sources */,
+				42BD6A2B1372057E00C7E11B /* MkPinger.m in Sources */,
+				42BD6A2C1372057E00C7E11B /* MkPingerDispatcher.m in Sources */,
+				42BD6A2D1372057E00C7E11B /* MkTextLogger.m in Sources */,
+				42BD6A3A13720ADA00C7E11B /* MkUITextViewLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +412,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -351,7 +427,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};
@@ -359,12 +435,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MkPing/MkPing-Prefix.pch";
 				INFOPLIST_FILE = "MkPing/MkPing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,11 +453,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MkPing/MkPing-Prefix.pch";
 				INFOPLIST_FILE = "MkPing/MkPing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +484,7 @@
 					SenTestingKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos3.2;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -422,6 +507,7 @@
 					SenTestingKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos3.2;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -446,6 +532,7 @@
 				42BD6A1F1372051D00C7E11B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42BD6A201372051D00C7E11B /* Build configuration list for PBXNativeTarget "MkPingTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +541,7 @@
 				42BD6A221372051D00C7E11B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,55 @@
+TMkPingTests
+v7
+r1
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/MkPingTests/MkPingTests.h
+c000000004DC1CD9D00000000000000E1
+t1304546717
+s225
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/MkPingTests/en.lproj/InfoPlist.strings
+c000000004DC1CD9D000000000000002D
+t1304546717
+s45
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPingTests.octest
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPingTests.octest/Contents/Info.plist
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPingTests.octest/Contents/Resources/MkPingTests.h
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPingTests.octest/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/MkPing.build/Debug/MkPingTests.build/Script-42BD6A081372051D00C7E11B.sh
+c00000000000000000000000000000000
+t2
+s0
+
+NMkPingTests/MkPingTests-Info.plist
+c000000004DC1CD9D00000000000002B4
+t1304546717
+s692
+
+CCopyStringsFile "/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPingTests.octest/Contents/Resources/en.lproj/InfoPlist.strings" MkPingTests/en.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/MkPingTests.octest/Contents/Resources/MkPingTests.h MkPingTests/MkPingTests.h
+r0
+
+CPhaseScriptExecution "Run Script" "/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/MkPing.build/Debug/MkPingTests.build/Script-42BD6A081372051D00C7E11B.sh"
+r0
+
+CProcessInfoPlistFile "/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPingTests.octest/Contents/Info.plist" MkPingTests/MkPingTests-Info.plist
+r0
+
+CTouch "/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPingTests.octest"
+r0
+

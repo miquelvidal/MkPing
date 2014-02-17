@@ -1,0 +1,116 @@
+TMkPing
+v7
+r1
+cCheck dependencies
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/MkPing/en.lproj/InfoPlist.strings
+c000000004DC1CD9D000000000000002D
+t1304546717
+s45
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/MkPing/en.lproj/MainWindow.xib
+c000000004DC1CD9D0000000000004E0D
+t1304546717
+s19981
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/MkPing/en.lproj/MkPingViewController.xib
+c000000004DCF9EC500000000000056B6
+t1305452229
+s22198
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/TryPing1_WithoutGlass114.png
+c000000004DCECF76000000000000455A
+t1305399158
+s17754
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/TryPing1_WithoutGlass57.png
+c000000004DCECF2C0000000000001F1E
+t1305399084
+s7966
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/TryPing1_resize.png
+c000000004DCB0BCD00000000000024F7
+t1305152461
+s9463
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/TryPing1_resize2retina.png
+c000000004DCB0C370000000000005743
+t1305152567
+s22339
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/Info.plist
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/Resources/TryPing1_WithoutGlass114.png
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/Resources/TryPing1_WithoutGlass57.png
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/Resources/TryPing1_resize.png
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/Resources/TryPing1_resize2retina.png
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/Resources/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/Resources/en.lproj/MkPingViewController.nib
+t2
+s0
+
+NMkPing/MkPing-Info.plist
+c000000004DCECFB400000000000004C4
+t1305399220
+s1220
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327165392#327165392#0(63"[BEROR]error: There is no SDK with the name or path 'iphoneos'1(4@55"error: There is no SDK with the name or path 'iphoneos'327165392#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileXIB "/Users/12345/Documents/Dev/Objective C/Mk/MkPing/MkPing/en.lproj/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/12345/Documents/Dev/Objective C/Mk/MkPing/MkPing/en.lproj/MkPingViewController.xib"
+r0
+
+CCopyStringsFile "/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/Resources/en.lproj/InfoPlist.strings" MkPing/en.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/MkPing.app/Contents/Resources/TryPing1_WithoutGlass114.png TryPing1_WithoutGlass114.png
+r0
+
+CCpResource build/Debug/MkPing.app/Contents/Resources/TryPing1_WithoutGlass57.png TryPing1_WithoutGlass57.png
+r0
+
+CCpResource build/Debug/MkPing.app/Contents/Resources/TryPing1_resize.png TryPing1_resize.png
+r0
+
+CCpResource build/Debug/MkPing.app/Contents/Resources/TryPing1_resize2retina.png TryPing1_resize2retina.png
+r0
+
+CProcessInfoPlistFile "/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app/Contents/Info.plist" MkPing/MkPing-Info.plist
+r0
+
+CTouch "/Users/12345/Documents/Dev/Objective C/Mk/MkPing/build/Debug/MkPing.app"
+r0
+
